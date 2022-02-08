@@ -157,7 +157,7 @@ footer small {
     display: block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
     section nav,
     section article {
         width: 100vw;
