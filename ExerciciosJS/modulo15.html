@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./modulo15.css">
     <title>Javascript</title>
 </head>
+
 <body>
 
     <div class="container">
@@ -20,23 +22,26 @@
             <label for="email">Email:</label>
             <input type="text" placeholder="Digite seu email" class="email" name="email">
             <label for="telefone">Telefone:</label>
-            <input type="number" placeholder="Digite seu telefone" onkeyup="mask(this,mtel)" maxlength="14" name="telefone">
+            <input type="text" placeholder="Digite seu telefone" onkeypress="mask(this,mtel)" maxlength="15"
+                name="telefone">
             <label for="cep">CEP:</label>
-            <input type="number" placeholder="Digite seu CEP" onkeyup="mask(this,mcep)" maxlength="9" class="numerico" name="cep">
+            <input type="text" placeholder="Digite seu CEP" onkeypress="mask(this,mcep)" maxlength="9" class="numerico"
+                name="cep">
             <label for="cidade">Cidade:</label>
             <input type="text" placeholder="Digite seu cidade" class="obrigario" name="cidade">
             <label for="estado">Estado:</label>
-            <input type="text" placeholder="Digite seu UF" maxlength="2" class="uf" name="uf"> 
+            <input type="text" placeholder="Digite seu UF" maxlength="2" class="uf" name="uf">
             <button type="submit">Enviar</button>
         </form>
 
         <div id="resultado">
-            
+
         </div>
 
     </div>
 
     <script type="text/javascript" src="./modulo15.js"></script>
-    
+
 </body>
+
 </html>

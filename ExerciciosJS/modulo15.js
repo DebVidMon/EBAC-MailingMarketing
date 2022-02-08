@@ -161,26 +161,27 @@ for( let emFoco of camposEmail) {
     validaEmail(emFoco);
 }
 
-// function mask(objeto,mascara){
-//     obj = objeto;
-//     mask = mascara;
-//     setTimeout("exemask()",1);
-// }
 
-// function exemask(){
-//     obj.value = mask(obj.value);
-// }
+function mask(objeto,mascara){
+    obj = objeto;
+    maskara = mascara;
+    setTimeout("exemask()",1);
+}
 
-// function mtel(fone){
-//     fone = fone.replace(/\D/g,'');
-//     fone = fone.replace(/^(\d{2})(\d{5})(\d{4})$/,'($1) $2-$3');
-//     console.log(fone);
-//     return fone;
-// }
+function exemask(){
+    obj.value = maskara(obj.value);
+}
 
-// function mcep(cep){
-//     cep = cep.replace(/\D/g,'');
-//     cep = cep.replace(/^(\d{5})(\d)$/,'$1-$2');
-//     console.log(cep);
-//     return cep;
-// }
+function mtel(fone){
+    fone = fone.replace(/\D/g,'');
+    fone = fone.replace(/^(\d{2})(\d{5})(\d{4})$/,'($1) $2-$3');
+    console.log(fone);
+    return fone;
+}
+
+function mcep(cep){
+    cep = cep.replace(/\D/g,'');
+    cep = cep.replace(/^(\d{5})(\d{3})$/,'$1-$2');
+    console.log(cep);
+    return cep;
+}
