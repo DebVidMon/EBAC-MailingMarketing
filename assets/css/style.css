@@ -1,6 +1,6 @@
 html {
     font-size: 62.5%;
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
 }
 
@@ -251,5 +251,20 @@ footer small {
     .container {
         padding-left: 1%;
         padding-right: 1%;
+    }
+
+    #banner{
+        height: 50vh;
+    }
+
+    .legenda-container {
+        width: 85vw;
+        float: right;
+        margin: 8rem 1rem 1rem 1rem;
+        align-items: flex-end;
+    }
+
+    .conteudo {
+        width: 95vw;
     }
 }
