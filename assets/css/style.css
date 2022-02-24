@@ -157,13 +157,50 @@ footer small {
 }
 
 @media (max-width: 425px) {
-    section nav,
-    section article {
-        width: 100vw;
-    }  
 
+    html{
+        width: 98vw;
+        margin: 0;
+        padding: 1%;
+        background-color: #fff;
+    }
+
+    nav{
+        width: 90vw;
+    }
+    nav ul{
+        width: 80vw;
+    }
+    .container{
+        width: 90vw;
+    }
+    section{
+        padding: 0;
+    }
+
+    img{
+        max-width: 70vw;
+    }
+
+    section nav,
+    section article,
+    footer {
+        width: 98vw;
+        padding: 0;
+    }
+    
+    #tenhointeresse{
+        width: 100%;
+    }
+    .cognito{
+        width: 98vw !important;
+        margin: 0 !important;
+        padding: 1% !important;
+        height: 45rem !important;
+    }
     .container {
         padding-left: 1%;
         padding-right: 1%;
+        margin: 0;
     }
 }
